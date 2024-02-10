@@ -1,0 +1,68 @@
+* {
+    margin:0%;
+    padding: 0%;
+}
+body{
+    text-align: center;
+    background: linear-gradient(to right,rgb(105, 99, 99),rgb(39, 38, 38));
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5vmin;
+    row-gap: 0vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 13vmin;
+    box-shadow: 3px 3px 3px 6px rgb(59, 27, 32);
+    border: none;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgb(87, 74, 74);
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+    font:bolder;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px rgb(94, 92, 93);
+    width:150vmin;
+    font-size: 60px;
+    font-style: italic;
+}
+.btn{
+    height: 10vmin;
+    width: 25vmin;
+    border: none;
+    border-radius: 30px;
+    box-shadow:  2px 2px 6px rgb(189, 0, 32);
+    font-size: 5vmin;
+    color: rgb(43, 43, 43);
+    cursor:pointer;
+    background-color: rgb(255, 88, 88);
+
+}
+.msg{
+    height: fit-content;
+    font-size: 70px;
+    height: 0px;
+}
+.hide{
+    display: none;
+}
+
+.restart{
+    width: 70vmin;
+}
